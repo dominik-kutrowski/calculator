@@ -10,9 +10,6 @@ public class Calculator {
     private LocalDate datePoint;*/
 
     public Calculator() {
-        // zgodnie z SRP, być poniższego nie powinno, czy przesadzam?
-        //timePoint = LocalTime.now();
-        //datePoint = LocalDate.now();
     }
 
     public Double add(Double x, Double y){ return x+y; }
@@ -28,11 +25,4 @@ public class Calculator {
         System.out.println("Lepszą nie będę, jakkolwiek, będę próbowała :)");
         System.out.println("\n");
     }
-    /*
-    public void get_start_time() {
-        System.out.println("rozpocząłeś pracę o:");
-        System.out.println(" " + datePoint );
-        System.out.println(" " + timePoint + "\n");
-    }
-    */
 }
